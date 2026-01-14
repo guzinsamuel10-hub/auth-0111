@@ -33,7 +33,7 @@ local GAMES = {
     [18110038107] = { name="America PVP", raw="---------" },
     [99001115434148] = { name="FluxoPvp", raw="https://github.com/guzinsamuel10-hub/Fluxo-ing-ang/blob/main/README.md" },
 }
-local DEFAULT_GAME = { name="Default", raw="https://raw.githubusercontent.com/guzinsamuel10-hub/stoppedhaze/refs/heads/main/README.md" }
+local DEFAULT_GAME = { name="Default", raw="https://github.com/guzinsamuel10-hub/Fluxo-ing-ang/blob/main/README.md" }
 local PLACE_ID = game.PlaceId or 0
 local CURRENT_GAME = GAMES[PLACE_ID] or DEFAULT_GAME
 local REMOTE_URL = CURRENT_GAME.raw
