@@ -28,12 +28,12 @@ local WEBHOOK = "https://discord.com/api/webhooks/1454173293027397985/RSVMIrCO2u
 
 -- Jogos / RAW por jogo
 local GAMES = {
-    [12990938829] = { name="HazePVP", raw="https://github.com/guzinsamuel10-hub/Fluxo-ing-ang/blob/main/README.md" },
+    [12990938829] = { name="HazePVP", raw="https://raw.githubusercontent.com/guzinsamuel10-hub/Fluxo-ing-ang/refs/heads/main/README.md" },
     [115054138215106] = { name="Sitonia", raw="https://github.com/guzinsamuel10-hub/Fluxo-ing-ang/blob/main/README.md" },
     [18110038107] = { name="America PVP", raw="https://github.com/guzinsamuel10-hub/Fluxo-ing-ang/blob/main/README.md" },
-    [99001115434148] = { name="FluxoPvp", raw="https://github.com/guzinsamuel10-hub/Fluxo-ing-ang/blob/main/README.md" },
+    [99001115434148] = { name="FluxoPvp", raw="https://raw.githubusercontent.com/guzinsamuel10-hub/Fluxo-ing-ang/refs/heads/main/README.md" },
 }
-local DEFAULT_GAME = { name="Default", raw="https://github.com/guzinsamuel10-hub/Fluxo-ing-ang/blob/main/README.md" }
+local DEFAULT_GAME = { name="Default", raw="https://raw.githubusercontent.com/guzinsamuel10-hub/Fluxo-ing-ang/refs/heads/main/README.md" }
 local PLACE_ID = game.PlaceId or 0
 local CURRENT_GAME = GAMES[PLACE_ID] or DEFAULT_GAME
 local REMOTE_URL = CURRENT_GAME.raw
@@ -45,7 +45,7 @@ local VIP_REMOTE_URLS = {
 
 -- Scripts VIP específicos por jogo (executados antes do padrão se usuário for VIP)
 local VIP_GAME_SCRIPTS = {
-     [99001115434148] = { "https://github.com/guzinsamuel10-hub/Fluxo-ing-ang/blob/main/README.md" },
+     [99001115434148] = { "https://raw.githubusercontent.com/guzinsamuel10-hub/Fluxo-ing-ang/refs/heads/main/README.md" },
 }
 
 -- Jogos que são "VIP only" — apenas keys marcadas como VIP terão acesso a estes lugares.
