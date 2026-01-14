@@ -45,7 +45,7 @@ local VIP_REMOTE_URLS = {
 
 -- Scripts VIP específicos por jogo (executados antes do padrão se usuário for VIP)
 local VIP_GAME_SCRIPTS = {
-    -- [99001115434148] = { "https://github.com/guzinsamuel10-hub/Fluxo-ing-ang/blob/main/README.md" },
+     [99001115434148] = { "https://github.com/guzinsamuel10-hub/Fluxo-ing-ang/blob/main/README.md" },
 }
 
 -- Jogos que são "VIP only" — apenas keys marcadas como VIP terão acesso a estes lugares.
