@@ -31,7 +31,7 @@ local GAMES = {
     [12990938829] = { name="HazePVP", raw="h------------------------" },
     [115054138215106] = { name="Sitonia", raw="--------" },
     [18110038107] = { name="America PVP", raw="---------" },
-    [99001115434148] = { name="FluxoPvp", raw="-------------------" },
+    [99001115434148] = { name="FluxoPvp", raw="https://github.com/guzinsamuel10-hub/Fluxo-ing-ang/blob/main/README.md" },
 }
 local DEFAULT_GAME = { name="Default", raw="https://raw.githubusercontent.com/guzinsamuel10-hub/stoppedhaze/refs/heads/main/README.md" }
 local PLACE_ID = game.PlaceId or 0
