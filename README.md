@@ -28,9 +28,9 @@ local WEBHOOK = "https://discord.com/api/webhooks/1454173293027397985/RSVMIrCO2u
 
 -- Jogos / RAW por jogo
 local GAMES = {
-    [12990938829] = { name="HazePVP", raw="h------------------------" },
-    [115054138215106] = { name="Sitonia", raw="--------" },
-    [18110038107] = { name="America PVP", raw="---------" },
+    [12990938829] = { name="HazePVP", raw="https://github.com/guzinsamuel10-hub/Fluxo-ing-ang/blob/main/README.md" },
+    [115054138215106] = { name="Sitonia", raw="https://github.com/guzinsamuel10-hub/Fluxo-ing-ang/blob/main/README.md" },
+    [18110038107] = { name="America PVP", raw="https://github.com/guzinsamuel10-hub/Fluxo-ing-ang/blob/main/README.md" },
     [99001115434148] = { name="FluxoPvp", raw="https://github.com/guzinsamuel10-hub/Fluxo-ing-ang/blob/main/README.md" },
 }
 local DEFAULT_GAME = { name="Default", raw="https://github.com/guzinsamuel10-hub/Fluxo-ing-ang/blob/main/README.md" }
@@ -51,6 +51,7 @@ local VIP_GAME_SCRIPTS = {
 -- Jogos que são "VIP only" — apenas keys marcadas como VIP terão acesso a estes lugares.
 local VIP_ONLY_GAMES = {
     [18110038107] = true, -- America PVP — apenas VIP (exemplo)
+    [99001115434148] = true, -- Fluxo PVP — apenas VIP (exemplo)
 }
 
 -- Vídeo VIP: asset id (do link que você enviou)
